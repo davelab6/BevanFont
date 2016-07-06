@@ -1,0 +1,476 @@
+[
+    {
+        "description": "Checking files are named canonically",
+        "log_messages": [
+            "Bevan-Regular.ttf is named canonically"
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "Font has post table version 2 ?",
+        "log_messages": [
+            "Font has post table version 2."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "Checking OS/2 fsType",
+        "log_messages": [
+            "fsType is zero."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "Checking OS/2 achVendID",
+        "log_messages": [
+            "Warning: OS/2 VendorID is 'newt' but this is not registered with Microsoft. You should register it at https://www.microsoft.com/typography/links/vendorlist.aspx"
+        ],
+        "result": "WARNING"
+    },
+    {
+        "description": "substitute copyright, registered and trademark symbols in name table entries",
+        "log_messages": [
+            "No need to substitute copyright, registered and trademark symbols in name table entries of this font."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "Checking OS/2 usWeightClass",
+        "log_messages": [
+            "OS/2 usWeightClass"
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "Checking fsSelection REGULAR bit",
+        "log_messages": [
+            "fsSelection REGULAR bit"
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "Checking that italicAngle <= 0",
+        "log_messages": [
+            "post table italicAngle is 0.0"
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "Checking that italicAngle is less than 20 degrees",
+        "log_messages": [
+            "OK: post table italicAngle is less than 20 degrees."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "Checking if italicAngle matches font style",
+        "log_messages": [
+            "post table italicAngle matches style name"
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "Checking fsSelection ITALIC bit",
+        "log_messages": [
+            "fsSelection ITALIC bit"
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "Checking macStyle ITALIC bit",
+        "log_messages": [
+            "macStyle ITALIC bit"
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "Checking fsSelection BOLD bit",
+        "log_messages": [
+            "fsSelection BOLD bit"
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "Checking macStyle BOLD bit",
+        "log_messages": [
+            "macStyle BOLD bit"
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "Check font has a license",
+        "log_messages": [
+            "Found license at 'OFL.txt'"
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "Check copyright namerecords match license file",
+        "log_messages": [
+            "HOTFIX: Font lacks NameID 13. A proper licensing entry was set."
+        ],
+        "result": "HOTFIX"
+    },
+    {
+        "description": "Check license and license URL entries",
+        "log_messages": [],
+        "result": "unknown"
+    },
+    {
+        "description": "Assure theres no 'description' namerecord",
+        "log_messages": [
+            "HOTFIX: Namerecord 10s (descriptions) were removed (perhaps added by a longstanding FontLab Studio 5.x bug.)"
+        ],
+        "result": "HOTFIX"
+    },
+    {
+        "description": "StyleName recommendation",
+        "log_messages": [
+            "HOTFIX: Bevan-Regular.ttf: Windows-only Opentype-specific StyleName set to \"Regular\"."
+        ],
+        "result": "HOTFIX"
+    },
+    {
+        "description": "Checking if the font is truly monospaced",
+        "log_messages": [
+            "Font is not monospaced."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "Checking with ot-sanitise",
+        "log_messages": [
+            "ot-sanitise passed this file"
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "fontforge-check: True",
+        "log_messages": [
+            "fontforge-check: Contours are closed."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "fontforge-check: False",
+        "log_messages": [
+            "fontforge-check: Contours do not intersect."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "fontforge-check: False",
+        "log_messages": [
+            "fontforge-check: Contours have correct directions."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "fontforge-check: True",
+        "log_messages": [
+            "fontforge-check: References in the glyph haven't been flipped."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "fontforge-check: False",
+        "log_messages": [
+            "fontforge-check: Glyphs have points at extremas."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "fontforge-check: True",
+        "log_messages": [
+            "fontforge-check: Glyph names referred to from glyphs present in the font."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "fontforge-check: True",
+        "log_messages": [
+            "fontforge-check: Points (or control points) are not too far apart."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "fontforge-check: True",
+        "log_messages": [
+            "fontforge-check: Not more than 1,500 points in any glyph (a PostScript limit)."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "fontforge-check: True",
+        "log_messages": [
+            "fontforge-check: PostScript hasnt a limit of 96 hints in glyphs"
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "fontforge-check: True",
+        "log_messages": [
+            "fontforge-check: Font doesn't have invalid glyph names."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "fontforge-check: True",
+        "log_messages": [
+            "fontforge-check: Glyphs have allowed numbers of points defined in maxp."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "fontforge-check: True",
+        "log_messages": [
+            "fontforge-check: Glyphs have allowed numbers of paths defined in maxp."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "fontforge-check: True",
+        "log_messages": [
+            "fontforge-check: Composite glyphs have allowed numbers of points defined in maxp."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "fontforge-check: True",
+        "log_messages": [
+            "fontforge-check: Composite glyphs have allowed numbers of paths defined in maxp."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "fontforge-check: True",
+        "log_messages": [
+            "fontforge-check: Glyphs instructions have valid lengths."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "fontforge-check: True",
+        "log_messages": [
+            "fontforge-check: Points in glyphs are integer aligned."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "fontforge-check: True",
+        "log_messages": [
+            "fontforge-check: Glyphs have all required anchors."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "fontforge-check: True",
+        "log_messages": [
+            "fontforge-check: Glyph names are unique."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "fontforge-check: True",
+        "log_messages": [
+            "fontforge-check: Unicode code points are unique."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "fontforge-check: True",
+        "log_messages": [
+            "fontforge-check: Hinds do not overlap."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "Checking vertical metrics",
+        "log_messages": [
+            "HOTFIX: Vertical metrics. Fixes: hhea ascent from 2365 to 2385 | OS/2 sTypoAscender from 2365 to 2385 | OS/2 usWinAscent from 2365 to 2385 | hhea descent from -925 to -923 | OS/2 sTypoDescender from -925 to -923 | OS/2 usWinDescent from 925 to 923"
+        ],
+        "result": "HOTFIX"
+    },
+    {
+        "description": "Checking font version fields",
+        "log_messages": [
+            "HOTFIX: Font version fields. Fixes: NAMEID_VERSION_STRING from Version 1.000 to Version 1.0; | NAMEID_VERSION_STRING from \u0000V\u0000e\u0000r\u0000s\u0000i\u0000o\u0000n\u0000 \u00001\u0000.\u00000\u00000\u00000 to \u0000V\u0000e\u0000r\u0000s\u0000i\u0000o\u0000n\u0000 \u00001\u0000.\u00000\u0000;"
+        ],
+        "result": "HOTFIX"
+    },
+    {
+        "description": "Digital Signature exists?",
+        "log_messages": [
+            "HOTFIX: The font does not have an existing digital signature (DSIG), so we just added one."
+        ],
+        "result": "HOTFIX"
+    },
+    {
+        "description": "Font contains glyphs for whitespace characters?",
+        "log_messages": [
+            "Font contains glyphs for whitespace characters."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "Font has **proper** whitespace glyph names?",
+        "log_messages": [
+            "Font has **proper** whitespace glyph names."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "Whitespace glyphs have ink?",
+        "log_messages": [
+            "Bevan-Regular.ttf space 480 nbsp 480"
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "Check no problematic formats",
+        "log_messages": [
+            "Check no problematic formats. "
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "Are there unwanted tables?",
+        "log_messages": [
+            "HOTFIX: Unwanted tables were present in the font and were removed: FFTM"
+        ],
+        "result": "HOTFIX"
+    },
+    {
+        "description": "Show hinting filesize impact",
+        "log_messages": [
+            "Hinting filesize impact:\n|  | Bevan-Regular.ttf |\n|----------|----------|----------|\n| Dehinted Size | 68kb |\n| Hinted Size | 72kb |\n| Increase | 3kb |\n| Change   | 5.46 % |\n"
+        ],
+        "result": "INFO"
+    },
+    {
+        "description": "Version format is correct in NAME table?",
+        "log_messages": [
+            "Version format in NAME table is correct."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "Glyph names are all valid?",
+        "log_messages": [
+            "Glyph names are all valid."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "Font contains unique glyph names?",
+        "log_messages": [
+            "Font contains unique glyph names."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "No glyph is incorrectly named?",
+        "log_messages": [
+            "Font does not have any incorrectly named glyph."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "EPAR table present in font?",
+        "log_messages": [
+            "ERROR: Font is missing EPAR table."
+        ],
+        "result": "ERROR"
+    },
+    {
+        "description": "Is GASP table correctly set?",
+        "log_messages": [
+            "HOTFIX: gaspRange[65535] value (14) is not 15"
+        ],
+        "result": "HOTFIX"
+    },
+    {
+        "description": "Does GPOS table have kerning information?",
+        "log_messages": [
+            "GPOS table has got kerning information."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "Is there a 'KERN' table declared in the font?",
+        "log_messages": [
+            "Font does not declare a 'KERN' table."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "Does full font name begin with the font family name?",
+        "log_messages": [
+            "Full font name begins with the font family name."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "Is there any unused data at the end of the glyf table?",
+        "log_messages": [
+            "Not a CFF font."
+        ],
+        "result": "SKIP"
+    },
+    {
+        "description": "Font has 'EURO SIGN' character?",
+        "log_messages": [
+            "Font has 'EURO SIGN' character."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "Font follows the family naming recommendations?",
+        "log_messages": [
+            "Font follows the family naming recommendations."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "Font contains magic code in PREP table?",
+        "log_messages": [
+            "ERROR: Failed to find correct magic code in PREP table."
+        ],
+        "result": "ERROR"
+    },
+    {
+        "description": "MaxAdvanceWidth is consistent with values in the Hmtx and Hhea tables?",
+        "log_messages": [
+            "MaxAdvanceWidth is consistent with values in the Hmtx and Hhea tables."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "Font names are consistent across platforms?",
+        "log_messages": [
+            "ERROR: Entries in \"name\" table are not the same across specific platforms."
+        ],
+        "result": "ERROR"
+    },
+    {
+        "description": "Are there non-ASCII characters in ASCII-only NAME table entries ?",
+        "log_messages": [
+            "None of the ASCII-only NAME table entries contain non-ASCII characteres."
+        ],
+        "result": "OK"
+    },
+    {
+        "description": "Font has a valid license url ?",
+        "log_messages": [
+            "ERROR: LicenseUrl is required and must be a valid URL. Got False instead."
+        ],
+        "result": "ERROR"
+    },
+    {
+        "description": "Is font em size (ideally) equal to 1000?",
+        "log_messages": [
+            "ERROR: font em size (2048) is not equal to 1000."
+        ],
+        "result": "ERROR"
+    }
+]
